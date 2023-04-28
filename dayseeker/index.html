@@ -1,0 +1,82 @@
+<!--Con esta etiqueta le ayudamos al navegador a entender que este documento es un html-->
+<!DOCTYPE html>
+<!--La etiqueta html es la principal con la que crearemos el documento, el atributo lang indica el idioma del documento-->
+<html lang="en">
+  <!--La etiqueta head va a enumerar los diferentes meta-datos y conexiones externas, además del titulo del documento-->
+  <head>
+    <!--Definimos el set de caracteres del documento-->
+    <meta charset="UTF-8" />
+    <!--Seteamos el estandar de compatibilidad más baja con Internet Explorer-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!--Seteamos la escala del viewport a 1:1-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Enlazamos la hoja de estilos al documento-->
+    <link rel="stylesheet" href="style.css" />
+    <!--Definimos el título del documento-->
+    <title>Dayseeker</title>
+  </head>
+  <body>
+    <header>
+      <h1>Dayseeker</h1>
+      <ul>
+        <li>
+          <a>Tour</a>
+        </li>
+        <li>
+          <a>Videos</a>
+        </li>
+        <li>
+          <a>Shop All</a>
+        </li>
+        <li>
+          <a>About</a>
+        </li>
+      </ul>
+    </header>
+    <img
+      class="banner"
+      src="./assets/Banner.jpg"
+      alt="Dayseeker Dark Sun album cover"
+    />
+    <main>
+      <h2>Featured Items</h2>
+      <div class="gallery">
+        <figure>
+          <img src="./assets/BandTee.webp" alt="Band Tee" />
+          <h3>Band Tee</h3>
+          <p>30.00$</p>
+        </figure>
+        <figure>
+          <img src="./assets/DyeTee.webp" alt="Dye Tee" />
+          <h3>Dye Tee</h3>
+          <p>30.00$</p>
+        </figure>
+        <figure>
+          <img src="./assets/Hoodie.webp" alt="Hoddie" />
+          <h3>Hoodie</h3>
+          <p>60.00$</p>
+        </figure>
+        <figure>
+          <img src="./assets/TankTee.webp" alt="Tank Tee" />
+          <h3>Tank Tee</h3>
+          <p>30.00$</p>
+        </figure>
+        <figure>
+          <img src="./assets/TourReturnTee.webp" alt="Tour Return Tee" />
+          <h3>Tour Return Tee</h3>
+          <p>30.00$</p>
+        </figure>
+        <figure>
+          <img src="./assets/TourTee.webp" alt="Tour Tee" />
+          <h3>Tour Tee</h3>
+          <p>30.00$</p>
+        </figure>
+        <figure>
+          <img src="./assets/Vynil.webp" alt="Vynil" />
+          <h3>Vynil</h3>
+          <p>35.00$</p>
+        </figure>
+      </div>
+    </main>
+  </body>
+</html>
